@@ -40,7 +40,7 @@ Unlike the `arrow` R packae interface, which can also query `parquet` files, `du
 **NOTE**: `gbifdb` currently requires the dev version of `duckdb`, which you can install using:
 
 ```r
-install.packages("https://github.com/duckdb/duckdb/releases/download/master-builds/duckdb_r_src.tar.gz", repos = NULL)
+install.packages("https://github.com/duckdb/duckdb/releases/download/master-builds/duckdb_r_src.tar.gz", repos = NULL, type = "source")
 ```
 
 <!--
